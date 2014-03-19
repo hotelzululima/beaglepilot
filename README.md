@@ -5,10 +5,8 @@ An autopilot for Linux-based computers based on the BeagleBone (Black).
 
 | Timeline | Anuj Deshpande| Siddharth Bharat Purohit| Víctor Mayoral Vilches |
 |----------|-------------- |-------------------------|------------------------|
-| **Community Bonding** (21st April - 19th May 4 weeks)|Have already begun interacting with the community on ardupilot-discuss, #beaglepilot.
-Would be possible to being working in the “community bonding” period. | Coding started and trying to pull the timeline as up as possible leaving voids to do more :)| Already started coding and the discussion at #beaglepilot (Freenode). The mentors provided great feedback and tutorials to get started. The goal will be to get familiar with ArduPilot and start coding drivers (userspace ones at the beginning) for the hardware to be used (PixHawk Fire Cape). |
-| May 19th - May 25th |Device tree generation.
-Create a test script to check if all pins required have been initialised to their appropriate modes.  | use beaglebone pru driver lib to upload firmware using remotproc| Hardware drivers coding (userspace) over the ArduPilot code (Linux kernel with RT_PREEMPT patches applied). |
+| **Community Bonding** (21st April - 19th May 4 weeks)|Have already begun interacting with the community on ardupilot-discuss, #beaglepilot.Would be possible to being working in the “community bonding” period. | Coding started and trying to pull the timeline as up as possible leaving voids to do more :)| Already started coding and the discussion at #beaglepilot (Freenode). The mentors provided great feedback and tutorials to get started. The goal will be to get familiar with ArduPilot and start coding drivers (userspace ones at the beginning) for the hardware to be used (PixHawk Fire Cape). |
+| May 19th - May 25th |Device tree generation. Create a test script to check if all pins required have been initialised to their appropriate modes.  | use beaglebone pru driver lib to upload firmware using remotproc| Hardware drivers coding (userspace) over the ArduPilot code (Linux kernel with RT_PREEMPT patches applied). |
 | May 26th - June 1st | PPM & PWM generation| Create data handling library for PRU0, PRU1 and ARM| Hardware drivers coding. |
 | June 2nd - June 8th | PPM & PWM generation | " | Code of hw tests. Make sure that all the hardware interfaces properly.| 
 | June 9th - June 15th | PPM & PWM generation | Port Starterware Library to PRU| Realtime comparison: stock kernel userspace vs RT_PREEMPT kernel userspace (desirable to include tests with Xenomai if the time allows it) |
